@@ -4,7 +4,7 @@ import json
 
 def handler(event, context):
     data = {
-        "output": "Hello World",
+        "output": "CodePipelineテスト",
         "timestamp": datetime.datetime.utcnow().isoformat(),
     }
     return {
